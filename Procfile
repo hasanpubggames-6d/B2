@@ -1,1 +1,0 @@
-web: python worm_phisher.py
