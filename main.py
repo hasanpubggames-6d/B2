@@ -15,7 +15,7 @@ from core.limiter import RateLimiter
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("8772316941:AAG6_YHAQIR_47WY5u8Ss6YCVJSp6ScmnA0")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 limiter = RateLimiter()
